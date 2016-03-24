@@ -145,9 +145,10 @@ section .part3 .cover {
   background-image: url("confectionary.png");
   text-align: center; }
   .part4 .title {
-    font-size: 2em;
+    font-size: 1.3em;
     color: rgba(0, 0, 0, 0.6);
-    margin: 2em; }
+    margin: 2em;
+    margin-bottom: 1em; }
   .part4 .box {
     width: 75%;
     margin: 0 auto 1em auto;
@@ -166,7 +167,8 @@ section .part3 .cover {
   .part4 #map {
     height: 100%; }
   .part4 .detail2 {
-    padding: 1em; }
+    padding: 1em;
+    min-height: 200px; }
     .part4 .detail2 p {
       color: black; }
 

@@ -204,9 +204,10 @@
     background-image: url("confectionary.png");    
     text-align: center;
     .title {
-      font-size: 2em;
+      font-size: 1.3em;
       color: rgba(0,0,0,0.6);
       margin: 2em;
+      margin-bottom: 1em;
     }
     .box {
       width: 75%;
@@ -233,6 +234,7 @@
     #map { height: 100%; }
     .detail2 {
       padding: 1em;
+      min-height: 200px;
       p {
         color: black;
       }
